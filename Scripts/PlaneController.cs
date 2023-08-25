@@ -12,11 +12,11 @@ public class PlaneController : MonoBehaviour
 
     [SerializeField] private bool isAndroidVersion;
 
-    public float tiltSpeed = 5f; // Скорость наклона корабля
-    public float maxTiltAngle = 45f; // Максимальный угол наклона
+    public float tiltSpeed = 5f; 
+    public float maxTiltAngle = 45f; 
 
-    private float targetTilt = 0f; // Целевой угол наклона
-    private float currentTilt = 0f; // Текущий угол наклона
+    private float targetTilt = 0f; 
+    private float currentTilt = 0f; 
 
     GameManagerSystem gameManager;
 
